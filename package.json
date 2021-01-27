@@ -1,6 +1,6 @@
 {
-  "name": "tagged-console",
-  "version": "1.0.0",
+  "name": "@boschebike/tagged-console",
+  "version": "1.0.1",
   "description": "Simple no-dependency console logger that prefixes all logs with given tag.",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -35,11 +35,11 @@
     "maintained node versions"
   ],
   "devDependencies": {
-    "@types/jest": "^26.0.4",
-    "jest": "^26.1.0",
-    "ts-jest": "^26.1.2",
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   },
   "dependencies": {
     "tsc": "^1.20150623.0"
