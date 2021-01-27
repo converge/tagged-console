@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sznowicki/tagged-console.git"
+    "url": "git@github.com:converge/tagged-console.git"
   },
   "keywords": [
     "logger",
@@ -24,9 +24,9 @@
   "author": "Szymon Nowicki <sznowicki@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sznowicki/tagged-console/issues"
+    "url": "https://github.com/converge/tagged-console/issues"
   },
-  "homepage": "https://github.com/sznowicki/tagged-console#readme",
+  "homepage": "https://github.com/converge/tagged-console/#readme",
   "browserslist": [
     "last 4 versions",
     "> 1%",
@@ -43,5 +43,8 @@
   },
   "dependencies": {
     "tsc": "^1.20150623.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@converge"
   }
 }
