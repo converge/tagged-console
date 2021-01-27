@@ -23,7 +23,7 @@ node {
                         'NPM_SCOPE=@boschebike',
                         'RELEASE_ARG=--no-ci']) {
 
-                        sh "docker-compose up --abort-on-container-exit --exit-code-from ebds-publish ebds-publish"
+                        sh "npx semantic-release --dry-run"
                     }
                 }
             }
